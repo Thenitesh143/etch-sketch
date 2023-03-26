@@ -13,15 +13,20 @@
 </head>
 
 <body>
-    <main>
-        <div class="grid">
-
-        </div>
-        <div class="controls">
-            <button onclick="rainbow()" class="rainbow">Rainbow</button>
-            <button onclick="black()" class="black">Black</button>
-        </div>
-    </main>
+    <div class="container">
+        <section>
+            <div class="controls">
+                <input type="color" id="myColor" name="favcolor" value="#333">
+                <button id="rainbow-btn">Rainbow</button>
+                <button id="black-btn">Black</button>
+                <button id="eraser-btn">Eraser</button>
+                <button id="clear-btn">Clear</button>
+            </div>
+        </section>
+        <main>
+            <div class="grid"></div>
+        </main>
+    </div>
 </body>
 
 </html>

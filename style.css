@@ -1,3 +1,21 @@
+.container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="color"] {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: none;
+  align-self: center;
+}
+
 main {
   display: flex;
   justify-content: center;
@@ -6,8 +24,8 @@ main {
 .grid {
   margin-top: 50px;
   display: inline-grid;
-  grid-template-columns: repeat(16, 2fr);
-  grid-template-rows: repeat(16, 2fr);
+  grid-template-columns: repeat(16, 1fr);
+  grid-template-rows: repeat(16, 1fr);
   border: 5px solid white;
   border-radius: 5px;
   height: 575px;
